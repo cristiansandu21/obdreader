@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:bottom="5dp"
+        android:drawable="@android:drawable/dialog_holo_light_frame"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="5dp"/>
+    <item>
+        <shape>
+            <solid android:color="@color/point_status_bar_dark" />
+
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+</layer-list>

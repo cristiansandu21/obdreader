@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Licență 2017</string>
+    <string name="main_title">Licență 2017</string>
+    <string name="activity_settings">Setări</string>
+    <string name="title_pref_obd">Setări OBD</string>
+    <string name="activity_trip_details">Detalii călătorie</string>
+    <string name="activity_trips_history">Istoric călătorii</string>
+    <string name="title_pref_commands_summary">Selectați comenzile pe care doriți să le monitorizați în timp real</string>
+    <string name="title_pref_commands_title">Comenzi OBD</string>
+    <string name="pref_obd_protocols_title">Protocol OBD</string>
+    <string name="pref_obd_protocols_summary">Selectați protocolul OBD utilizat</string>
+    <string name="title_pref_bluetooth" translatable="false">Bluetooth</string>
+    <string name="pref_bluetooth_list_devices_title">Dispozitive Bluetooth</string>
+    <string name="pref_bluetooth_list_devices_summary">Listă cu dispozitivele Bluetooth asociate</string>
+
+    <string name="status_obd_disconnected">deconectat</string>
+    <string name="status_bluetooth_enabled">activat</string>
+    <string name="status_bluetooth_disabled">dezactivat</string>
+    <string name="bluetooth_device_connected"> - conectat</string>
+    <string name="bluetooth_device_disconnected"> - deconectat</string>
+    <string name="bluetooth_failed_to_connect">Eroare la conectare</string>
+    <string name="no_bluetooth_selected">Dispozitiv bluetooth neselectat"</string>
+    <string name="bluetooth_no_socket">Nu s-a putut conecta la socket-ul bluetooth</string>
+    <string name="bluetooth_303">Nu s-a putut conecta la dispozitiv. Posibil ca acesta să fie închis sau în afara ariei de acoperire.</string>
+    <string name="bluetooth_broken_pipe">"Socket-ul bluetooth a fost închis."</string>
+    <string name="obd_receiving_data">se primesc date...</string>
+    <string name="obd_initializing">se inițializează...</string>
+    <string name="bluetooth_not_supported">Acest dispozitiv nu suportă Bluetooth</string>
+    <string name="bluetooth_not_supported2">Acest dispozitiv nu suportă Bluetooth sau este dezactivat.</string>
+
+    <string name="main_button_connect">Conectare</string>
+    <string name="main_button_data_start">Start</string>
+    <string name="main_button_data_stop">Stop</string>
+    <string name="obd_stopped">oprit...</string>
+    <string name="menu_settings">Setări</string>
+    <string name="menu_trips_history">Istoric călătorii</string>
+
+    <string name="location_permission_title">Serviciu de localizare</string>
+    <string name="location_permission_content">Este necesară permisiunea la serviciul de localizare</string>
+    <string name="location_alert_title">Serviciul de localizare dezactivat. Activați serviciul de localizare pentru a putea continua.</string>
+    <string name="location_alert_button_ok">Deschide setările de localizare</string>
+    <string name="location_alert_button_cancel">Anulare</string>
+    <string name="connecting_dialog">Se conectează ...</string>
+    <string name="service_stopped">Serviciul a fost oprit.</string>
+
+    <string name="trip_delete_alert_message">Sunteți sigur că doriți să ștergeti călătoria (</string>
+    <string name="trip_delete_alert_yes">Da</string>
+    <string name="trip_row_date">Data:</string>
+    <string name="trip_row_dutation">Durata:</string>
+    <string name="trip_details_average">Medie:</string>
+    <string name="trip_details_max">Max:</string>
+    <string name="trips_no_items">Nu sunt călătorii de afișat</string>
+    <string name="trip_stored_success">Călătorie salvată cu success</string>
+</resources>

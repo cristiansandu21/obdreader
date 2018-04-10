@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_cream"
+    tools:context="ro.aptus.odbreader.activity.TripsHistoryActivity">
+
+    <ListView
+        android:id="@+id/list_view_trips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_margin="10dp"
+        android:divider="@null"
+        android:dividerHeight="0dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/text_no_items"
+        android:text="@string/trips_no_items"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/point_grey_font"/>
+
+</RelativeLayout>

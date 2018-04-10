@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_cream"
+    tools:context="ro.aptus.odbreader.activity.TripDetailsActivity">
+
+    <ImageButton
+        android:id="@+id/btn_recenter"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:padding="5dp"
+        android:src="@drawable/ic_center_focus_strong_black_48dp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_top_details"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round_border_all"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <Spinner
+            android:id="@+id/maps_spinner"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/maps_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/point_black"
+                    android:text="@string/trip_details_average"/>
+
+                <TextView
+                    android:id="@+id/text_average_value"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/point_black"
+                    android:gravity="center"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/point_black"
+                    android:text="@string/trip_details_max"/>
+
+                <TextView
+                    android:id="@+id/text_max_value"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/point_black"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        tools:context="ro.aptus.odbreader.activity.TripDetailsActivity" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="109dp"
+        android:background="@color/point_black"/>
+
+</RelativeLayout>

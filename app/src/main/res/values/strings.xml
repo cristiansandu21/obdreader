@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">OBD Reader V6</string>
+    <string name="main_title">License 2017</string>
+    <string name="activity_settings">Settings</string>
+    <string name="activity_trip_details">Trip details</string>
+    <string name="activity_trips_history">Trips history</string>
+    <string name="title_pref_obd">OBD Preferences</string>
+    <string name="title_pref_commands_summary">Select the commands you would like to see in real-time.</string>
+    <string name="title_pref_commands_title">OBD Commands</string>
+    <string name="pref_obd_protocols_title">OBD Protocol</string>
+    <string name="pref_obd_protocols_summary">Select OBD Protocol to use</string>
+    <string name="title_pref_bluetooth" translatable="false">Bluetooth</string>
+    <string name="pref_bluetooth_list_devices_title">Bluetooth Devices</string>
+    <string name="pref_bluetooth_list_devices_summary">List of paired bluetooth devices.</string>
+
+    <string name="status_obd_disconnected">disconnected</string>
+    <string name="status_bluetooth_enabled">enabled</string>
+    <string name="status_bluetooth_disabled">disabled</string>
+    <string name="bluetooth_device_connected"> - connected</string>
+    <string name="bluetooth_device_disconnected"> - disconnected</string>
+    <string name="bluetooth_failed_to_connect">Failed to connect</string>
+    <string name="no_bluetooth_selected">No bluetooth device selected"</string>
+    <string name="bluetooth_no_socket">Cannot connect to bluetooth socket</string>
+    <string name="bluetooth_303">Could not connect to device. It may be offline or out of range.</string>
+    <string name="bluetooth_broken_pipe">"Bluetooth socket closed."</string>
+    <string name="obd_receiving_data">receiving data...</string>
+    <string name="obd_initializing">initializing...</string>
+    <string name="bluetooth_not_supported">This device does not support Bluetooth.</string>
+    <string name="bluetooth_not_supported2">This device does not support Bluetooth or it is disabled.</string>
+
+    <string name="main_button_connect">Connect</string>
+    <string name="main_button_data_start">Start</string>
+    <string name="main_button_data_stop">Stop</string>
+    <string name="obd_stopped">stopped...</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_trips_history">Trips History</string>
+
+    <string name="location_permission_title">Location services</string>
+    <string name="location_permission_content">Location permission required</string>
+    <string name="location_alert_title">Location services are not enabled. Turn services on in order to continue</string>
+    <string name="location_alert_button_ok">Open location setting</string>
+    <string name="location_alert_button_cancel">Cancel</string>
+    <string name="connecting_dialog">Trying to connect ...</string>
+    <string name="service_stopped">Service stopped.</string>
+
+    <string name="trip_delete_alert_message">Are you sure you want to delete trip (</string>
+    <string name="trip_delete_alert_yes">Yes</string>
+    <string name="trip_row_date">Date:</string>
+    <string name="trip_row_dutation">Duration:</string>
+    <string name="trip_details_average">Average:</string>
+    <string name="trip_details_max">Max:</string>
+    <string name="trips_no_items">No items to display</string>
+    <string name="trip_stored_success">Trip stored successfully</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4e4f57</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <!-- http://www.google.com/design/spec/style/color.html#color-color-palette -->
+    <color name="primary">#607d8b</color>
+    <!-- Blue Grey 500 -->
+    <color name="primary_dark">#455a64</color>
+    <!-- Blue Grey 700 -->
+    <color name="accent">#ff5252</color>
+    <!-- Red A200 -->
+
+    <color name="bt_offline">#C62828</color>
+
+    <color name="polyline_light_blue">#0277BD</color>
+
+    <!-- Point Colors -->
+    <color name="point_yellow">#FCCD07</color>
+    <color name="point_yellow_dark">#ECBD00</color>
+    <color name="point_black">#22232D</color>
+    <color name="point_black_dark">#12131D</color>
+    <color name="point_teal">#4DB5E0</color>
+    <color name="point_red">#DF5B4F</color>
+    <color name="point_green">#6DC181</color>
+    <color name="point_green_button">#6dc282</color>
+    <color name="point_green_button_pressed">#4caf50</color>
+    <color name="point_grey">#EAEAEA</color>
+    <color name="point_grey_font">#707178</color>
+    <color name="point_grey_dark_font">#4e4f57</color>
+    <color name="point_status_bar_dark">#3e3f47</color>
+    <color name="hint_grey">#808080</color>
+    <color name="light_font">#FBFBFB</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="yellow">#fbbb21</color>
+    <color name="white">#fff</color>
+    <color name="white_shadow">#f9f9f9</color>
+    <color name="blue">#0093db</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#3a3a3a</color>
+    <color name="white_cream">#F4F4F6</color>
+    <color name="green_button">#6dc282</color>
+
+</resources>
